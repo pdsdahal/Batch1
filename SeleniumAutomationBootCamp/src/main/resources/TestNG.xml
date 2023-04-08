@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="lambdatest suite">
+  
+  <listeners>
+		<listener class-name="com.lambdatest.extentreport.ExtentReportListner" />
+	</listeners>
+  
+  
+  <test name="lambdatest test ">    
+    <classes>
+     <class name="com.lambdatest.testcases.HeaderPageTest"/>
+     <class name="com.lambdatest.testcases.RegistrationPageTest"/>
+    </classes>   
+  </test>
+</suite>
